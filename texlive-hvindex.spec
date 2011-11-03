@@ -1,3 +1,9 @@
+# revision 16136
+# category Package
+# catalog-ctan /macros/latex/contrib/hvindex
+# catalog-date 2009-11-23 13:00:14 +0100
+# catalog-license lppl
+# catalog-version 0.02
 Name:		texlive-hvindex
 Version:	0.02
 Release:	1
@@ -42,6 +48,7 @@ is both typeset and indexed.
 %doc %{_texmfdistdir}/doc/latex/hvindex/README
 %doc %{_texmfdistdir}/doc/latex/hvindex/hvindex.pdf
 %doc %{_texmfdistdir}/doc/latex/hvindex/hvindex.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ is both typeset and indexed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
