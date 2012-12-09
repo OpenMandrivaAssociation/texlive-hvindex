@@ -49,3 +49,17 @@ is both typeset and indexed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.02-2
++ Revision: 752588
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.02-1
++ Revision: 718626
+- texlive-hvindex
+- texlive-hvindex
+- texlive-hvindex
+- texlive-hvindex
+
