@@ -6,7 +6,7 @@
 # catalog-version 0.02
 Name:		texlive-hvindex
 Version:	0.02
-Release:	4
+Release:	5
 Summary:	Support for indexing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvindex
