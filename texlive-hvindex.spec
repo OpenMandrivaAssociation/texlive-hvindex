@@ -1,12 +1,6 @@
-# revision 16136
-# category Package
-# catalog-ctan /macros/latex/contrib/hvindex
-# catalog-date 2009-11-23 13:00:14 +0100
-# catalog-license lppl
-# catalog-version 0.02
 Name:		texlive-hvindex
-Version:	0.02
-Release:	10
+Version:	0.04
+Release:	1
 Summary:	Support for indexing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvindex
@@ -34,11 +28,8 @@ is both typeset and indexed.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/hvindex/hvindex.sty
-%doc %{_texmfdistdir}/doc/latex/hvindex/Changes
-%doc %{_texmfdistdir}/doc/latex/hvindex/README
-%doc %{_texmfdistdir}/doc/latex/hvindex/hvindex.pdf
-%doc %{_texmfdistdir}/doc/latex/hvindex/hvindex.tex
+%{_texmfdistdir}/tex/latex/hvindex
+%doc %{_texmfdistdir}/doc/latex/hvindex
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,17 +40,3 @@ is both typeset and indexed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.02-2
-+ Revision: 752588
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.02-1
-+ Revision: 718626
-- texlive-hvindex
-- texlive-hvindex
-- texlive-hvindex
-- texlive-hvindex
-
