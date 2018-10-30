@@ -1,6 +1,6 @@
 Name:		texlive-hvindex
 Version:	0.04
-Release:	1
+Release:	2
 Summary:	Support for indexing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvindex
