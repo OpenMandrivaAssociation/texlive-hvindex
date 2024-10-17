@@ -3,7 +3,7 @@ Version:	46051
 Release:	2
 Summary:	Support for indexing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvindex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hvindex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvindex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvindex.doc.r%{version}.tar.xz
